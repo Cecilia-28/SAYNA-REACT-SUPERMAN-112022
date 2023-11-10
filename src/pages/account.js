@@ -1,8 +1,12 @@
-// src/Game.js
+
+
 import React from 'react';
 import { Link } from 'react-router-dom';
-import user from './the-account-pages/user-svgrepo-com.svg';
-import eye from './the-account-pages/eye-svgrepo-com.svg';
+import user from './s-compte/user-svgrepo-com.svg';
+import eye from './s-compte/eye-svgrepo-com.svg';
+import google from './s-compte/spons-1.png';
+import facebook from './s-compte/spons-2.png';
+import apple from './s-compte/spons-3.png';
 
 
 const Account = () => {
@@ -49,13 +53,20 @@ const Account = () => {
             <div className="forgot">
               <p style={{textDecoration: 'underline', fontSize: '.8em', cursor: 'pointer'}}
               >Mot de passe oublié</p>
+              <div className='ln'></div>
             </div>
           </div>
           <Link to="/dashboard">
-              <button>valider</button>
+              <button className='log'>valider</button>
         </Link>
           <div className="forgot">
             <p>Connectez vous avec</p>
+            <div className="ln"></div>
+          </div>
+          <div className="spons">
+            <div><img src={google} alt="" /></div>
+            <div><img src={facebook} alt="" /></div>
+            <div><img src={apple} alt="" /></div>
           </div>
         </form>
       </div>

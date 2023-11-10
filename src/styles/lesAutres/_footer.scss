@@ -1,0 +1,27 @@
+footer{
+    margin: 17% 0 2%;
+    p{
+        font-size: .9em;
+    }
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footsoc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        margin: 15px 10px;
+        img{
+            transition: all .25s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                filter: grayscale(50%) brightness(70%) sepia(100%) hue-rotate(5deg) saturate(500%) contrast(1);
+            }
+        }
+    }
+}
