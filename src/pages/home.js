@@ -97,32 +97,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div id="trailer">
-                <div class="trailer titles-stuff"><h3>MULTIMEDIA</h3></div>
-                <div class="media">
-                    <div class="arrow"><img src={firstarrow} alt=""/></div>
-                    <div class="synopsis">
-                        <img src={movie} alt=""/>
-                        <div class="texts">
-                            <div class="imdb">
-                                <h3>ACTION, Adventure</h3>
-                                <h3>Superman Man of Steel</h3>
-                                <h3>IMDB : <span style={{ color: 'yellow'}}>7.1</span></h3>
-                                <p style={{ textAlign: 'justify' }}>
-                                    Clark Kent, malgré son apparence humaine normale, est l'un 
-                                    des derniers membres d'une race éteinte. Il se retrouve forcé 
-                                    de révéler son identité lorsque la Terre est envahie par une 
-                                    armée de survivants qui menacent détruire la planète.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                <div class="arrow"><img src={lastarrow} alt=""/></div>
-            </div>
-
-            <div class="video">
-                <a href="https://www.youtube.com/watch?v=yP7J0rlFkrg"><img src={trailer} alt=""/></a>
-            </div>
+          
 
 
            
