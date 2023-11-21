@@ -1,14 +1,4 @@
-#login{
-  background: url(/src/assets/images/img19.png) 75% 25%/cover no-repeat;
-  box-shadow: inset 5px 75px 75px -9px #000000, rgb(0, 0, 0) 0em -3em 30px inset;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  h1{
-    text-shadow: none;
-    font-size: 1.5em;
-    margin-top: 35px;
-  }
+
   .login{
     margin: 250px 0 100px 0;
     background: rgb(2,0,36);
@@ -113,6 +103,17 @@
   gap: 35px;
   margin: 15px 0 0;
 }
+#login{
+  background: url(/src/assets/images/img19.png) 75% 25%/cover no-repeat;
+  box-shadow: inset 5px 75px 75px -9px #000000, rgb(0, 0, 0) 0em -3em 30px inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1{
+    text-shadow: none;
+    font-size: 1.5em;
+    margin-top: 35px;
+  }
 
 #dash{
   button{
