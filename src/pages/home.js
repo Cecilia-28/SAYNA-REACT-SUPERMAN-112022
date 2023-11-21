@@ -125,45 +125,7 @@ const Home = () => {
             </div>
 
 
-            <div id="contact">
-                <form>
-                    <div class="formulaire">
-                        <span style={{textAlign: 'center'}}><h3>PRENONS CONTACT</h3></span>
-                        <div class="one">
-                            <h2>ADRESSE EMAIL</h2>
-                            <input type="Adresse email" placeholder="Adresse email"/>
-                        </div>
-                        <div class="two">
-                            <h2>NEWSLETTER</h2>
-                            <label for="chck">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Superman :</label>
-                            <input type="checkbox" id="chck" style={{width: '20px'}}/>
-                        </div>
-                        <div>
-                            <select id="selection">
-                                <option value="">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</option>
-                                <option value="daily">Par jour</option>
-                                <option value="weekly">Par semaine</option>
-                                <option value="monthly">Par mois</option>
-                            </select>
-                        </div>
-                        <div class="three">
-                            <p>Souhaitez-vous recevoir des news</p>
-                            <div class="button">
-                                <button type="button" class="btn2">Des films</button>
-                                <button type="button" class="btn2">Des comics</button>
-                                <button type="button" class="btn2">De tout</button>
-                            </div>
-                        </div>
-                        <div class="four">
-                            <h2>MESSAGE</h2>
-                            <input type="sms" placeholder="Laissez un commentaire pour la communauté"/>
-                            <div class="button">
-                                <button type="button" className='conf'>CONFIRMER</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
+           
 
             <div id="quotes">
                 <div class="leftg">
